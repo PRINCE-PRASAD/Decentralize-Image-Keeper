@@ -2,49 +2,72 @@
   text-align: center;
 }
 
-.App-logo {
+.videoTag {
+  height: 56.25vw; 
+  left: 50%;
+  min-height: 100vh;
+  min-width: 177.77vh; 
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+}
+  .videoContainer {
+  bottom: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  }
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 html {
   height: 100%;
 }
 
-body {
-  margin: 0;
-}
 
-.bg {
+
+/* .bg {
   animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
   bottom: 0;
@@ -63,9 +86,9 @@ body {
 
 .bg3 {
   animation-duration: 5s;
-}
+} */
 
-.content {
+/* .content {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.25em;
   box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
@@ -76,20 +99,20 @@ body {
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 h1 {
   font-family: monospace;
 }
 
-@keyframes slide {
+/* @keyframes slide {
   0% {
     transform: translateX(-25%);
   }
   100% {
     transform: translateX(25%);
   }
-}
+} */
 
 * {
   padding: 0;
@@ -97,9 +120,12 @@ h1 {
   box-sizing: border-box;
 }
 body {
+  margin: 0;
   height: 900px;
+  overflow-y: hidden; 
+  overflow-x: hidden;
 }
-header {
+/* header {
   text-align: center;
   width: 100%;
   height: auto;
@@ -108,15 +134,15 @@ header {
   position: relative;
   overflow: hidden;
   border-radius: 0 0 85% 85% / 30%;
-}
-header .overlay {
+} */
+/* header .overlay {
   width: 100%;
   height: 100%;
   padding: 50px;
   color: #fff;
   text-shadow: 1px 1px 1px #333;
   background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
-}
+} */
 
 h1 {
   font-family: "Dancing Script", cursive;
