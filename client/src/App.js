@@ -3,9 +3,9 @@ import Upload from "./artifacts/contracts/Upload.sol/Upload.json";
 
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
-import FileUpload from "./Components/FileUpload";
-import Display from "./Components/Display";
-import Modal from "./Components/Modal";
+import FileUpload from "./components/FileUpload";
+import Display from "./components/Display";
+import Modal from "./components/Modal";
 
 
 
@@ -39,7 +39,7 @@ function App() {
         const signer = provider.getSigner();
         const address = await signer.getAddress();
         setAccount(address);
-        let contractAddress = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9";
+        let contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 // ------------------------------------------------------
         const contract = new ethers.Contract(
           contractAddress,
