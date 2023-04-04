@@ -10,7 +10,7 @@ This is a real-time Decentralized Image Storing application created with *Solidi
 
 ## Image Keeper Live Previews
 
-![Image Keeper-Live-Preview](./client/src/assets/Demo.gif)
+![Image Keeper-Live-Preview](./client/src/assets/Demo1.gif)
 ## Features
 
 
